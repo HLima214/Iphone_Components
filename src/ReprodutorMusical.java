@@ -9,11 +9,11 @@ public class ReprodutorMusical {
 
     
 
-    public void menu() {
+    public void menuMusica() {
         Scanner scanner = new Scanner(System.in);
         int opcao;
         do {
-            System.out.println("1 - Selecionar Música");
+            System.out.println("\n1 - Selecionar Música");
             System.out.println("2 - Tocar Música");
             System.out.println("3 - Pausar Música");
             System.out.println("4 - Sair");

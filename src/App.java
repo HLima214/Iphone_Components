@@ -9,6 +9,7 @@ public class App {
 
         do { 
 
+            System.out.println("\nBem-vindo ao iPhone!");
             System.out.println("1 - Acessar Reprodutor");
             System.out.println("2 - Acessar Aparelho");
             System.out.println("3 - Acessar Internet");
@@ -19,8 +20,14 @@ public class App {
             switch (opcao) {
                 case 1:
                     ReprodutorMusical reprodutor = new ReprodutorMusical();
-                    reprodutor.menu();
+                    reprodutor.menuMusica();
                     
+                    break;
+
+                case 2:
+                    Aparelho aparelho = new Aparelho();
+                    aparelho.menuAparelho();
+
                     break;
                 default:
                     System.out.println("Opção inválida!");
