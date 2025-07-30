@@ -29,8 +29,17 @@ public class App {
                     aparelho.menuAparelho();
 
                     break;
+
+                case 3:
+                    NavegadorInternet navegador = new NavegadorInternet();
+                    navegador.menuNavegador();
+
+                    break;
+
+                case 4:
+                    System.out.println("Desligando iPhone...");
+
                 default:
-                    System.out.println("Opção inválida!");
                     break;
                 
             }

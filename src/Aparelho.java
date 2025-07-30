@@ -33,7 +33,7 @@ public void menuAparelho(){
                 if (resposta.equalsIgnoreCase("s")) {
                     atender();
                 } else {
-                    System.out.println("Ligação não atendida.");
+                    System.out.println("\nLigação não atendida.");
                 }
                 break;
 
